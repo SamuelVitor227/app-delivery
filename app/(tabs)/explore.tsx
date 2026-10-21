@@ -5,7 +5,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 export default function SearchScreen() {
   return (
     <View style={styles.container}>
-      <StatusBar barStyle="light-content" backgroundColor="#121212" />
+      <StatusBar barStyle="light-content" />
       <SafeAreaView style={styles.safeArea}>
         <View style={styles.content}>
           <View style={styles.iconWrap}>

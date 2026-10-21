@@ -4,8 +4,8 @@ Aplicativo de delivery mobile desenvolvido com React Native + Expo.
 
 ## Stack
 
-- React Native 0.81 + React 19
-- Expo 54 com expo-router (file-based routing)
+- React Native 0.88 + React 19.3
+- Expo SDK 58 com expo-router (file-based routing)
 - TypeScript
 - @expo/vector-icons (MaterialIcons)
 

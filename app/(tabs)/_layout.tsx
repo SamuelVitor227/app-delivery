@@ -23,14 +23,14 @@ export default function TabLayout() {
         name="index"
         options={{
           title: 'Home',
-          tabBarIcon: ({ color }) => <MaterialIcons name="home" size={26} color={color} />,
+          tabBarIcon: ({ color }) => <MaterialIcons name="home" size={26} color={color as string} />,
         }}
       />
       <Tabs.Screen
         name="explore"
         options={{
           title: 'Buscar',
-          tabBarIcon: ({ color }) => <MaterialIcons name="search" size={26} color={color} />,
+          tabBarIcon: ({ color }) => <MaterialIcons name="search" size={26} color={color as string} />,
         }}
       />
     </Tabs>
